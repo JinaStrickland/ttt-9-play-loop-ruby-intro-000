@@ -39,7 +39,7 @@ def play(board)
   tokens = 0
   until tokens == 9
     turn(board)
-    tokens += 1
+    tokens = 1
   end
 end
 
